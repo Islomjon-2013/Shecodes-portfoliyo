@@ -339,6 +339,35 @@ ul li:nth-child(4):hover ~ #marker::before {
   transform: scale(1);
 }
 
+.contact {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: red;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-links a {
+  margin-left: 20px;
+}
+.contact .form-control::placeholder {
+  border: none;
+  color: var(--warning-color);
+  font-weight: bolder;
+}
+.contact .form-control:hover {
+  background-color: var(--warning-color);
+  color: #020202;
+}
+footer {
+  background-color: #020202;
+}
+.bi {
+  font-size: 20px;
+}
 @media (max-width: 575.98px) {
   .hero__subtitle {
     font-size: 18px;
